@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Zoho</h1>
+    <h2> Comment App</h2>
+</div>
+
+
+<h3> Do Your Comment
+    <button type="button" onclick="location.href='@Url.Action("Create", "Feedbacks")'">
+       Make Comment
+
+    </button>
+</h3>
+<br/>
+<br />
+
+
+<h3> See all Comments
+    <button type="button" onclick="location.href='@Url.Action("Index", "Feedbacks")'">
+       Filter
+
+    </button>
+</h3>
+
